@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nuthatch"
+version = "1.0.0"
+license-files = {paths = ["license"]}
+authors = [
+    { name="Aurélien Bleusez", email="" }
+]
+description = "Projet formation OC : détecteur de faux billets"
+readme = "readme.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "matplotlib",
+    "scipy",
+    "tabulate",
+    "scikit-learn",
+    "statsmodels"
+]
+
+[project.urls]
+Homepage = ""
+Issues = ""
+
+[tool.hatch.build.targets.wheel]
+packages = ["nuthatch"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"cli.py" = "/nuthatch/cli.py"
+
+[project.scripts]
+nuthatch-cli = "nuthatch.cli:main" 

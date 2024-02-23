@@ -1,0 +1,9 @@
+# vim swap file
+*.swp
+
+# latex sources
+*.tex
+
+# python
+__pycache__/
+.ipynb_checkpoints/
