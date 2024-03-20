@@ -1,0 +1,67 @@
+{
+    "food_availability_data": {
+        "path": "./file/dispal-2017.csv",
+        "parameter": {
+            "usecols": [
+                3,
+                5,
+                7,
+                11
+            ],
+            "dtype": {
+                "Zone": "str",
+                "Élément": "str",
+                "Produit": "str",
+                "Valeur": "float64"
+            },
+            "sep": ","
+        }
+    },
+    "population_data": {
+        "path": "./file/pop-2000_2018.csv",
+        "parameter": {
+            "usecols": [
+                3,
+                9,
+                11
+            ],
+            "dtype": {
+                "Zone": "str",
+                "Année": "int32",
+                "Valeur": "float64"
+            },
+            "sep": ","
+        }
+    },
+    "mplstyler": {
+        "path": "./style/mplstyler.mplstyle"
+    },
+    "gdp_data": {
+        "path": "./file/pib.csv",
+        "parameter": {
+            "usecols": [
+                3,
+                11
+            ],
+            "dtype": {
+                "Zone": "str",
+                "Valeur": "float64"
+            },
+            "sep": ","
+        }
+    },
+    "malnutrition_data": {
+        "path": "./file/fao_sous_allim.csv",
+        "parameter": {
+            "usecols": [
+                3,
+                11
+            ],
+            "dtype": {
+                "Zone": "str",
+                "Valeur": "str"
+            },
+            "sep": ","
+        }
+    }
+}

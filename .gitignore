@@ -1,3 +1,8 @@
+# TMP folder
+magpie_project
+p8/
+test/
+
 # vim swap file
 *.swp
 
@@ -7,3 +12,7 @@
 # python
 __pycache__/
 .ipynb_checkpoints/
+pyenv/
+
+# Project specific
+p9/file/geodata.geojson

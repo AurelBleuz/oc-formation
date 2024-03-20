@@ -1,0 +1,27 @@
+<style>
+    h1 {
+        background-color: #044b52;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    h2 {
+        background-color: #10929e75;
+        padding: 10px;
+    }
+
+    h3 {
+        text-decoration-line: underline;
+    }
+
+    .df_attr {
+        color: #10929e;
+        font-style: italic;
+    }
+    
+    .keyword {
+        color: #009f07;
+        font-style: italic;
+    }
+</style>
